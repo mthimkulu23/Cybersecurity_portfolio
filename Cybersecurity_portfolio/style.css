@@ -22,3 +22,28 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Adds a shadow effect on hover */
     border-color: #007bff; /* Changes border color on hover (optional) */
 }
+
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: space-around; /* Space items evenly */
+}
+
+.skill-category {
+    margin: 20px; /* Space around each category */
+    text-align: center; /* Center category titles */
+    flex-basis: 200px; /* Set a base width for categories */
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column; /* Stack icon above text */
+    align-items: center; /* Center items horizontally */
+    margin: 10px; /* Space between skill items */
+}
+
+.skill-icon {
+    font-size: 24px; /* Icon size */
+    margin-bottom: 5px; /* Space between icon and text */
+}
