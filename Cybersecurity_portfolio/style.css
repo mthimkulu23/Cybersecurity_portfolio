@@ -1,0 +1,24 @@
+
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+.w3-image {
+    border-radius: 100%; /* Makes the image circular */
+    width: 500px; /* Set a width for the image */
+    height: 500px; /* Set a height for the image */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border: 2px solid #ccc; /* Adds a border around the image */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for effects */
+}
+
+.w3-image:hover {
+    transform: scale(1.1); /* Slightly enlarges the image on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Adds a shadow effect on hover */
+    border-color: #007bff; /* Changes border color on hover (optional) */
+}
