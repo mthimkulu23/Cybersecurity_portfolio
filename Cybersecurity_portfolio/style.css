@@ -13,7 +13,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     width: 500px; /* Set a width for the image */
     height: 500px; /* Set a height for the image */
     object-fit: cover; /* Ensures the image covers the area without distortion */
-    border: 2px solid yellow; /* Adds a border around the image */
+    border: 3px solid white; /* Adds a border around the image */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for effects */
 }
 
